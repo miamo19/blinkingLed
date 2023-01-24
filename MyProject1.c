@@ -42,5 +42,7 @@ do
  Delay_ms(500);
  PORTB = 0b01111111;
  Delay_ms(500);
+ PORTB = 0b11111111;
+ Delay_ms(500);
  } while(1); // endless loop
 } // end
