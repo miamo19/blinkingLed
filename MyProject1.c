@@ -11,7 +11,7 @@ do
  PORTB = 0b00000001; // one pin of PORTB high
  Delay_ms(500); // 500 milliseconds delay
  PORTB = 0b00000000; // all PORTB off
- Delay_ms(500);
+ Delay_ms(500); // 500 milliseconds delay
  PORTB = 0b00000011;
  Delay_ms(500);
  PORTB = 0b00000111;
