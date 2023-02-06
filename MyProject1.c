@@ -12,7 +12,7 @@ do
  Delay_ms(500); // 500 milliseconds delay
  PORTB = 0b00000000; // all PORTB off
  Delay_ms(500); // 500 milliseconds delay
- PORTB = 0b00000011;  // the two last PORTB are ON and the rest off
+ PORTB = 0b00000011;  // Two last led of PORTB are ON and the rest off
  Delay_ms(500);
  PORTB = 0b00000111;
  Delay_ms(500);
